@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MITHILESHWARAN.D — Developer, Builder &amp; Artist</title>
+  <meta name="description" content="Mithileshwaran.D, first-year ECE student at SRM IST. I build web experiences, experiment with AI automation and make art. Projects, toolkit and contact.">
+  <meta name="theme-color" content="#F6F3EE">
+  <meta name="author" content="Mithileshwaran.D">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23F6F3EE'/%3E%3Ccircle cx='16' cy='16' r='6' fill='%23D4461F'/%3E%3C/svg%3E">
+
+  <meta property="og:title" content="MITHILESHWARAN.D — Developer, Builder &amp; Artist">
+  <meta property="og:description" content="First-year ECE student at SRM IST who builds web experiences, experiments with AI automation and makes art.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="assets/profile.jpg">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400..800&display=swap">
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Hidden animation states only apply once this class exists, so the page still works without JS. -->
+  <script>document.documentElement.classList.add('js');</script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <nav class="nav" id="site-nav" aria-label="Sections">
+      <ol class="nav__list">
+        <li><a class="nav__link" href="#identity" data-nav="1"><span class="nav__num">01</span> Identity</a></li>
+        <li><a class="nav__link" href="#practice" data-nav="2"><span class="nav__num">02</span> Practice</a></li>
+        <li><a class="nav__link" href="#toolkit" data-nav="3"><span class="nav__num">03</span> Toolkit</a></li>
+        <li><a class="nav__link" href="#work" data-nav="4"><span class="nav__num">04</span> Work</a></li>
+        <li><a class="nav__link" href="#connect" data-nav="5" data-magnetic><span class="nav__num">05</span> Connect</a></li>
+      </ol>
+      <p class="nav__footnote">Madurai, India — <a href="mailto:mithileshwaran.d@gmail.com">mithileshwaran.d@gmail.com</a></p>
+    </nav>
+
+    <p class="topbar__clock" aria-label="Local time in Madurai">
+      <span class="topbar__city">Madurai</span>
+      <time class="js-clock">--:--</time>
+    </p>
+
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+      <span class="menu-toggle__label">Menu</span>
+    </button>
+  </header>
+
+  <div class="progress" aria-hidden="true">
+    <div class="progress__track"><div class="progress__fill"></div></div>
+    <p class="progress__count"><span class="js-section-count">00</span> / 05</p>
+  </div>
+
+  <main id="main">
+    <!-- 00 — HERO -->
+    <section class="hero" id="top" data-section="0" aria-label="Introduction">
+      <ul class="hero__roles" aria-label="Roles">
+        <li class="role" style="--i:0">Developer</li>
+        <li class="role" style="--i:1">Builder</li>
+        <li class="role" style="--i:2">Artist</li>
+      </ul>
+
+      <figure class="portrait">
+        <figcaption class="portrait__caption label">
+          <span>Madurai, IN</span>
+        </figcaption>
+        <button class="portrait__frame" type="button" data-cursor="view" aria-haspopup="dialog" aria-label="View full profile photograph">
+          <img class="portrait__img" src="assets/profile.jpg" width="1110" height="1417"
+               alt="Mithileshwaran.D — profile photograph" fetchpriority="high">
+        </button>
+      </figure>
+
+      <h1 class="hero__name" aria-label="Mithileshwaran.D">MITHILESHWARAN.D</h1>
+
+      <dl class="hero__meta">
+        <div><dt class="label">College</dt><dd>SRM IST</dd></div>
+        <div><dt class="label">Course</dt><dd>ECE Core</dd></div>
+        <div><dt class="label">Year</dt><dd>First year</dd></div>
+        <div><dt class="label">Based in</dt><dd>Madurai, India</dd></div>
+      </dl>
+
+      <a class="scroll-cue label" href="#identity">
+        <span class="scroll-cue__arrow" aria-hidden="true">↓</span> Scroll
+      </a>
+    </section>
+
+    <div class="strip" aria-hidden="true">
+      <p class="strip__text">Developer · Builder · Artist · Developer · Builder · Artist · Developer · Builder · Artist · Developer · Builder · Artist ·</p>
+    </div>
+
+    <!-- 01 — IDENTITY -->
+    <section class="section identity" id="identity" data-section="1" aria-labelledby="identity-title">
+      <header class="section-head" data-reveal>
+        <p class="label">01 — Identity</p>
+        <h2 class="section-head__title" id="identity-title">Who I am</h2>
+      </header>
+
+      <div class="identity__body">
+        <p class="identity__bio" data-reveal style="--i:1">
+          First-year ECE student at SRM IST who enjoys turning ideas into
+          <span class="mark">useful digital products</span>. I build web experiences, experiment with
+          <span class="mark">AI automation</span>, and explore the creative side of technology through
+          <span class="mark">art and design</span>.
+        </p>
+
+        <dl class="facts" data-reveal style="--i:2">
+          <div class="facts__row"><dt class="label">College</dt><dd>SRM Institute of Science and Technology, Kattankulathur</dd></div>
+          <div class="facts__row"><dt class="label">Course</dt><dd>Electronics &amp; Communication Engineering (Core)</dd></div>
+          <div class="facts__row"><dt class="label">Year</dt><dd>First year</dd></div>
+          <div class="facts__row"><dt class="label">From</dt><dd>Madurai, India</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- 02 — PRACTICE -->
+    <section class="section practice" id="practice" data-section="2" aria-labelledby="practice-title">
+      <header class="section-head" data-reveal>
+        <p class="label">02 — Practice</p>
+        <h2 class="section-head__title" id="practice-title">Three things I keep coming back to</h2>
+      </header>
+
+      <ol class="practice__list">
+        <li class="practice-row" tabindex="0" data-reveal style="--i:0">
+          <span class="practice-row__index label">01 /</span>
+          <h3 class="practice-row__title"><span class="practice-row__dot" aria-hidden="true"></span>Build</h3>
+          <div class="practice-row__text">
+            <p class="practice-row__tags">Web development · Digital products · Frontend</p>
+            <p class="practice-row__desc">Websites and web apps, from a perfume store to a canteen ordering system. Usually Next.js and Supabase, sometimes just HTML, CSS and JavaScript, like this page.</p>
+          </div>
+          <span class="glyph glyph--build" aria-hidden="true"><span></span><span></span><span></span></span>
+        </li>
+
+        <li class="practice-row" tabindex="0" data-reveal style="--i:1">
+          <span class="practice-row__index label">02 /</span>
+          <h3 class="practice-row__title"><span class="practice-row__dot" aria-hidden="true"></span>Automate</h3>
+          <div class="practice-row__text">
+            <p class="practice-row__tags">AI workflows · Automation · Systems</p>
+            <p class="practice-row__desc">Trying out AI tools and wiring them into small workflows to see what is actually useful. CareLink and Arcus both came out of this.</p>
+          </div>
+          <span class="glyph glyph--automate" aria-hidden="true"><span></span><span></span><span></span></span>
+        </li>
+
+        <li class="practice-row" tabindex="0" data-reveal style="--i:2">
+          <span class="practice-row__index label">03 /</span>
+          <h3 class="practice-row__title"><span class="practice-row__dot" aria-hidden="true"></span>Create</h3>
+          <div class="practice-row__text">
+            <p class="practice-row__tags">Art · Visual design · Creative technology</p>
+            <p class="practice-row__desc">Art and visual design. It is the side that makes me care about type, spacing and how a page feels to use.</p>
+          </div>
+          <span class="glyph glyph--create" aria-hidden="true"><span></span></span>
+        </li>
+      </ol>
+    </section>
+
+    <!-- 03 — TOOLKIT -->
+    <section class="section toolkit" id="toolkit" data-section="3" aria-labelledby="toolkit-title">
+      <header class="section-head" data-reveal>
+        <p class="label">03 — Toolkit</p>
+        <h2 class="section-head__title" id="toolkit-title">What I work with</h2>
+      </header>
+
+      <div class="toolkit__groups">
+        <div class="skill-group" data-reveal style="--i:0">
+          <h3 class="skill-group__label label">Tools <span>— what I use most</span></h3>
+          <ul class="skills">
+            <li class="skill" data-pillar="Build">HTML</li>
+            <li class="skill" data-pillar="Build">CSS</li>
+            <li class="skill" data-pillar="Build">JavaScript</li>
+          </ul>
+        </div>
+
+        <div class="skill-group" data-reveal style="--i:1">
+          <h3 class="skill-group__label label">Exploring <span>— learning by building</span></h3>
+          <ul class="skills">
+            <li class="skill" data-pillar="Build">React</li>
+            <li class="skill" data-pillar="Build">Next.js</li>
+            <li class="skill" data-pillar="Build">Tailwind CSS</li>
+            <li class="skill" data-pillar="Build">Supabase</li>
+            <li class="skill" data-pillar="Build">PostgreSQL</li>
+            <li class="skill" data-pillar="Automate">n8n</li>
+            <li class="skill" data-pillar="Automate">AI Automation</li>
+          </ul>
+        </div>
+
+        <div class="skill-group" data-reveal style="--i:2">
+          <h3 class="skill-group__label label">Interests <span>— away from the editor</span></h3>
+          <ul class="skills">
+            <li class="skill" data-pillar="Create">Art</li>
+            <li class="skill" data-pillar="Create">Visual Design</li>
+            <li class="skill" data-pillar="Create">Creative Technology</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- 04 — SELECTED WORK -->
+    <section class="section work" id="work" data-section="4" aria-labelledby="work-title">
+      <header class="section-head" data-reveal>
+        <p class="label">04 — Selected work</p>
+        <h2 class="section-head__title" id="work-title">Things I've built</h2>
+        <p class="section-head__note">Four projects on GitHub: one live store, one demo, and two AI experiments I'm still working on.</p>
+      </header>
+
+      <ol class="work__list">
+        <li class="work-row" data-reveal style="--i:0">
+          <span class="work-row__index label">01</span>
+          <h3 class="work-row__title">Akram Perfumes</h3>
+          <p class="work-row__desc">An online store I built for Akram Perfumes, a fragrance brand from Madurai. It has product variants and sizes, customer accounts, a cart with Razorpay checkout, and an admin dashboard for products, stock and orders.</p>
+          <div class="work-row__meta">
+            <p class="status status--live label">Live</p>
+            <p class="work-row__stack">Next.js · TypeScript · Tailwind CSS · Supabase · Razorpay</p>
+            <p class="work-row__links">
+              <a class="arrow-link" href="https://github.com/mithilesh241008/Akram-perfumes" target="_blank" rel="noopener noreferrer" aria-label="Akram Perfumes repository on GitHub (opens in new tab)">Repo <span class="arrow" aria-hidden="true">↗</span></a>
+              <a class="arrow-link" href="https://www.akramperfumes.in" target="_blank" rel="noopener noreferrer" aria-label="Akram Perfumes live site (opens in new tab)">Live site <span class="arrow" aria-hidden="true">↗</span></a>
+            </p>
+          </div>
+        </li>
+
+        <li class="work-row" data-reveal style="--i:1">
+          <span class="work-row__index label">02</span>
+          <h3 class="work-row__title">SRM IST Canteen</h3>
+          <p class="work-row__desc">Lunch queues at our canteen get long, so I built a way to order before you get there. Students pick food, get a daily token and collect when it's ready. The kitchen moves orders through an admin dashboard. A student demo, not an official SRM app. Payments are simulated.</p>
+          <div class="work-row__meta">
+            <p class="status label">Demo</p>
+            <p class="work-row__stack">Next.js · TypeScript · Tailwind CSS · Supabase</p>
+            <p class="work-row__links">
+              <a class="arrow-link" href="https://github.com/mithilesh241008/SRM-IST-CANTEEN" target="_blank" rel="noopener noreferrer" aria-label="SRM IST Canteen repository on GitHub (opens in new tab)">Repo <span class="arrow" aria-hidden="true">↗</span></a>
+              <a class="arrow-link" href="https://srm-ist-canteen.vercel.app" target="_blank" rel="noopener noreferrer" aria-label="SRM IST Canteen live demo (opens in new tab)">Demo <span class="arrow" aria-hidden="true">↗</span></a>
+            </p>
+          </div>
+        </li>
+
+        <li class="work-row" data-reveal style="--i:2">
+          <span class="work-row__index label">03</span>
+          <h3 class="work-row__title">CareLink AI</h3>
+          <p class="work-row__desc">A Streamlit app for everyday health questions, made with rural users in mind. You can ask in English or Tamil and have the answer read aloud. It also has a BMI calculator and a simple fitness planner. General guidance only, not medical advice.</p>
+          <div class="work-row__meta">
+            <p class="status label">Prototype</p>
+            <p class="work-row__stack">Python · Streamlit · Gemini API · gTTS</p>
+            <p class="work-row__links">
+              <a class="arrow-link" href="https://github.com/mithilesh241008/Carelink.AI" target="_blank" rel="noopener noreferrer" aria-label="CareLink AI repository on GitHub (opens in new tab)">Repo <span class="arrow" aria-hidden="true">↗</span></a>
+              <a class="arrow-link" href="https://carelinkai.streamlit.app" target="_blank" rel="noopener noreferrer" aria-label="CareLink AI live app (opens in new tab)">Live app <span class="arrow" aria-hidden="true">↗</span></a>
+            </p>
+          </div>
+        </li>
+
+        <li class="work-row" data-reveal style="--i:3">
+          <span class="work-row__index label">04</span>
+          <h3 class="work-row__title">Arcus</h3>
+          <p class="work-row__desc">A personal assistant that runs on my own laptop. It talks to a local phi3 model through Ollama and speaks its replies with the Windows voice. For now it takes typed input. Voice input isn't wired up yet.</p>
+          <div class="work-row__meta">
+            <p class="status status--progress label">In progress</p>
+            <p class="work-row__stack">Python · Ollama · phi3</p>
+            <p class="work-row__links">
+              <a class="arrow-link" href="https://github.com/mithilesh241008/arcus-ai" target="_blank" rel="noopener noreferrer" aria-label="Arcus repository on GitHub (opens in new tab)">Repo <span class="arrow" aria-hidden="true">↗</span></a>
+            </p>
+          </div>
+        </li>
+      </ol>
+
+      <a class="work__more arrow-link" href="https://github.com/mithilesh241008" target="_blank" rel="noopener noreferrer" data-reveal>
+        Everything else is on GitHub <span class="arrow" aria-hidden="true">↗</span><span class="visually-hidden"> (opens in new tab)</span>
+      </a>
+    </section>
+
+    <!-- 05 — CONNECT -->
+    <section class="section connect" id="connect" data-section="5" aria-labelledby="connect-title">
+      <header class="section-head" data-reveal>
+        <p class="label">05 — Connect</p>
+      </header>
+      <h2 class="connect__title" id="connect-title" data-reveal>Let's connect.</h2>
+
+      <ul class="connect__list">
+        <li class="connect-row" data-reveal style="--i:0">
+          <a class="connect-row__link" href="https://github.com/mithilesh241008" target="_blank" rel="noopener noreferrer" data-magnetic-area>
+            <span class="connect-row__platform">GitHub</span>
+            <span class="connect-row__handle">mithilesh241008</span>
+            <span class="connect-row__arrow" aria-hidden="true" data-magnetic>↗</span>
+            <span class="visually-hidden">(opens in new tab)</span>
+          </a>
+        </li>
+        <li class="connect-row" data-reveal style="--i:1">
+          <a class="connect-row__link" href="https://www.linkedin.com/in/mithileshwaran-d-322497394/" target="_blank" rel="noopener noreferrer" data-magnetic-area>
+            <span class="connect-row__platform">LinkedIn</span>
+            <span class="connect-row__handle">mithileshwaran-d</span>
+            <span class="connect-row__arrow" aria-hidden="true" data-magnetic>↗</span>
+            <span class="visually-hidden">(opens in new tab)</span>
+          </a>
+        </li>
+        <li class="connect-row" data-reveal style="--i:2">
+          <a class="connect-row__link" href="https://www.instagram.com/mithil_eshwaran/" target="_blank" rel="noopener noreferrer" data-magnetic-area>
+            <span class="connect-row__platform">Instagram</span>
+            <span class="connect-row__handle">@mithil_eshwaran</span>
+            <span class="connect-row__arrow" aria-hidden="true" data-magnetic>↗</span>
+            <span class="visually-hidden">(opens in new tab)</span>
+          </a>
+        </li>
+        <li class="connect-row connect-row--email" data-reveal style="--i:3">
+          <a class="connect-row__link" href="mailto:mithileshwaran.d@gmail.com" data-magnetic-area>
+            <span class="connect-row__platform">Email</span>
+            <span class="connect-row__handle">mithileshwaran.d@gmail.com</span>
+            <span class="connect-row__arrow" aria-hidden="true" data-magnetic>→</span>
+          </a>
+          <button class="copy-btn" type="button" data-copy="mithileshwaran.d@gmail.com" data-magnetic>
+            <span class="copy-btn__label">Copy</span>
+          </button>
+        </li>
+      </ul>
+      <p class="visually-hidden" role="status" aria-live="polite" id="copy-status"></p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span class="js-year">2026</span> Mithileshwaran.D</p>
+    <p class="footer__built">Designed &amp; Developed by MITHILESHWARAN D</p>
+    <a class="footer__top arrow-link" href="#top" data-magnetic>Back to top <span class="arrow" aria-hidden="true">↑</span></a>
+  </footer>
+
+  <dialog class="photo-dialog" aria-label="Full profile photograph">
+    <img src="assets/profile.jpg" width="1110" height="1417" alt="Mithileshwaran.D — profile photograph, uncropped" loading="lazy">
+    <form method="dialog">
+      <button class="photo-dialog__close label" type="submit">Close <span aria-hidden="true">×</span></button>
+    </form>
+  </dialog>
+</body>
+</html>
